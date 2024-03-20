@@ -1,0 +1,41 @@
+.l2{
+   padding-left: 27px;
+   /* padding-top: 20px; */
+}
+.parent{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 20px;
+}
+.div1{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+.list{
+   display: flex;
+   list-style-type: none;
+   gap: 50px;
+   font-size: 20px;
+   opacity: 95%;
+}
+.list li:hover{
+   cursor: pointer;
+   color: #b6dc1a;
+}
+.btn1{
+   background-color: #b6dc1a;
+   padding: 10px 50px;
+   font-size: 20px;
+   color: #000000;
+   margin-right: 25px;
+   border-radius: 10px;
+   transition: 1.5s;
+}
+.btn1:hover{
+   background-color: transparent;
+   border: 2px solid #b6dc1a;
+   color: #ffffff;
+   cursor: pointer;
+}
