@@ -1,0 +1,63 @@
+.abouthead{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* font-size: 30px; */
+}
+.abouttext{
+   padding-top: 60px;
+   font-size: 16px;
+}
+.aboutdiv1{
+    display: flex;
+    padding-left: 80px;
+    gap: 60px;
+}
+.aboutline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 30px; */
+}
+.aboutedu{
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+    gap: 70px;
+    padding-right: 49px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.abouticon{
+    padding-right: 6px;
+    color: #b6dc1a;
+    font-size: 35px;
+    padding-top: 12px;
+}
+.aboutpara1{
+   font-size: 10px;
+}
+.divp{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+@media (max-width: 640px){
+    .abouthead{
+        font-size: 20px;
+    }
+    .aboutdiv1{
+    flex-direction: column;
+    gap:6px;
+    }
+    .abouttext{
+        font-size: 13px;
+    }
+    .cart{
+        height: 96vh;
+        width: 100%;
+        object-fit: cover;
+    }
+}

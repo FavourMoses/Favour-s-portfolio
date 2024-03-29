@@ -1,0 +1,59 @@
+.projectContainer {
+  padding-left: 80px;
+  background-color: #000106;
+  color: #ffffff;
+  margin-top: -7px;
+  padding-top: 35px;
+}
+.projectdiv1 {
+  display: flex;
+  gap: 20px;
+}
+.project1 {
+  width: 500px;
+  height: 260px;
+  border-radius: 10px;
+}
+#phead {
+  text-align: center;
+  margin-right: 100px;
+  padding-bottom: 35px;
+}
+.projectdiv3 {
+  padding-top: 70px;
+}
+.projectpara {
+  font-weight: 500;
+  font-size: 25px;
+}
+.picons {
+  font-size: 24px;
+  padding-top: 14px;
+}
+.picons a {
+  color: #ffffff;
+  padding-right: 10px;
+}
+.direction{
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 640px) {
+  .projectdiv1 {
+    flex-direction: column;
+    /* gap: 10px; */
+    width: 100%;
+  }
+  #phead {
+    font-size: 20px;
+  }
+  .projectpara {
+    font-size: 16px;
+  }
+  .picons {
+    font-size: 17px;
+  }
+  .ppara {
+    font-size: 13px;
+  }
+}
