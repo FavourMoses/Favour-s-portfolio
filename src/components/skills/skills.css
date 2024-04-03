@@ -1,12 +1,11 @@
-.skillh{
-    text-align: center;
-    padding-top: 40px;
+.skillh {
+  text-align: center;
+  padding-top: 40px;
 }
-.skillh2{
-    text-align: center;
-    font-size: 25px;
+.skillh2 {
+  text-align: center;
+  font-size: 25px;
 }
-
 
 .row {
   display: flex;
@@ -54,24 +53,42 @@ p {
   color: #000000;
   font-weight: 500;
 }
-.al{
+.al {
   width: 100vw;
 }
 
-
-
-@media (max-width: 640px){
-  .skillh{
+@media (max-width: 640px) {
+  .skillh {
     font-size: 20px;
   }
-  .skillh2{
+  .skillh2 {
     font-size: 17px;
-    
   }
-  .hd{
-font-size: 15px ;
+  .hd {
+    font-size: 15px;
   }
-  .pr{
-font-size: 13px;
+  .pr {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 640px) {
+  .section {
+    margin-right: 10%;
+    margin-left: -8%;
+  }
+}
+@media screen and (min-width: 360px) and (orientation: landscape) {
+  .skillh {
+    font-size: 24px;
+  }
+  .skillh2 {
+    font-size: 19px;
+  }
+  .column {
+    margin-right: 60px;
+  }
+  .al {
+    margin-bottom: 60px;
   }
 }

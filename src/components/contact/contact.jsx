@@ -48,7 +48,7 @@ export const ContactUs = () => {
       </div>
 
       <div className="cright">
-        <p className="contactp">Feel free to contact me anytime</p>
+        <p className="contactp2">Feel free to contact me anytime</p>
         <div className="cbox">
           <p>Email</p>
           <p>mosesfavour65@gmail.com</p>

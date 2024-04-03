@@ -27,45 +27,46 @@ const About = () => {
                 Education
               </p>
               <p>
-                <IoBagCheck className="abouticon" />
+                <IoBagCheck className="abouticon2" />
                 Work
               </p>
             </div>
             <div className="divp">
               <div className="aboutline">
-                <BiSolidBullseye />
+                <BiSolidBullseye className='eye'/>
                 <p className="aboutpara1">
                   Mathematics Education <br />
                   Delta State University
                 </p>
-                <BiSolidBullseye />
+                <BiSolidBullseye className='eye' />
                 <p className="aboutpara1">
                   Web Development Bootcamp <br />
                   App Brewery (Udemy)
                 </p>
-                <BiSolidBullseye />
+                <BiSolidBullseye className='eye'/>
                 <p className="aboutpara1">
                   Nextjs by Example <br />
                   App Brewery (Udemy)
                 </p>
-                <BiSolidBullseye /> <p className="aboutpara1">Hackathon</p>
-                <BiSolidBullseye />
-                <BiSolidBullseye />
+                <BiSolidBullseye className='eye'/> 
+                <p className="aboutparahack">Hackathon</p>
+                <BiSolidBullseye className='eye'/>
+                <BiSolidBullseye className='eye'/>
               </div>
 
               <div className="aboutline">
-                <BiSolidBullseye />
+                <BiSolidBullseye className='eye'/>
                 <p className="aboutpara1">
                   Frontend developer <br />
                   Velhect ltd <br /> <br /> April 2019 - August 2023
                 </p>
-                <BiSolidBullseye />
+                <BiSolidBullseye className='eye'/>
                 <p className="aboutpara1">
                   Frontend developer <br />
                   Mogrex ltd <br /> <br /> June 2022 - present
                 </p>
-                <BiSolidBullseye />
-                <BiSolidBullseye />
+                <BiSolidBullseye className='eye'/>
+                <BiSolidBullseye className='eye'/>
               </div>
             </div>
           </div>

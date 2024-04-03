@@ -5,13 +5,19 @@
   padding-left: 30px;
   padding-bottom: 20px;
 }
+.contactp2 {
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
 .firstdiv {
   padding-left: 50px;
   background: #181818;
   width: 65%;
   height: 96vh;
   margin-left: 89px;
-  /* margin-top: 30px; */
 }
 .clabel {
   display: block;
@@ -61,6 +67,7 @@
   background-color: #222222;
   margin-bottom: 20px;
   border-radius: 10px;
+  overflow: scroll;
   padding: 30px;
 }
 
@@ -76,6 +83,9 @@
   .contactp {
     font-size: 20px;
   }
+  .contactp2 {
+    font-size: 20px;
+  }
   .cbtn {
     width: 30%;
     font-size: 14px;
@@ -84,5 +94,51 @@
     width: 85%;
     margin-left: 15%;
   }
+}
+@media (max-width: 360px) {
+  .firstdiv {
+    margin-left: 22%;
+  }
+  .cbtn {
+    width: 90%;
+  }
+  .cright {
+    margin-left: 22%;
+  }
+  .cbox {
+    overflow: scroll;
+  }
+}
 
+@media screen and (min-width: 360px) and (orientation: landscape) {
+  .firstdiv {
+    overflow: scroll;
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+  .cbtn {
+    width: 40%;
+    border-radius: 8px;
+  }
+  .contactp {
+    font-size: 20px;
+  }
+  .contactp2 {
+    font-size: 16px;
+    padding-left: 2px;
+  }
+  .cright {
+    overflow: scroll;
+    padding-left: 5%;
+  }
+  .cbox {
+    width: 80%;
+    height: 14vh;
+  }
+  .cbox p {
+    font-size: 14px;
+  }
+  .containerC{
+    margin-bottom: 6%;
+  }
 }

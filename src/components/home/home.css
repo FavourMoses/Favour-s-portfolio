@@ -1,13 +1,12 @@
 .homediv1 {
-  
   color: white;
   padding-bottom: 100px;
   /* position: relative;  */
 }
-#homehr{
+#homehr {
   opacity: 30%;
 }
-.homediv2{
+.homediv2 {
   padding-top: 170px;
   padding-left: 170px;
   line-height: 23px;
@@ -15,7 +14,7 @@
   display: flex;
   gap: 50px;
 }
-.homebtn{
+.homebtn {
   padding: 10px 50px;
   font-size: 18px;
   border-radius: 7px;
@@ -25,30 +24,30 @@
   margin-top: 25px;
   transition: 0.8s;
 }
-.homebtn:hover{
+.homebtn:hover {
   background-color: #4b5c0a;
   color: #000000;
   font-weight: 530;
   cursor: pointer;
 }
-.homeicons{
+.homeicons {
   display: flex;
   flex-direction: column;
   font-size: 20px;
-  gap:20px;
+  gap: 20px;
 }
-.homeicons a{
+.homeicons a {
   color: #ffffff;
 }
-.homeside{
+.homeside {
   margin-left: 30px;
   margin-top: -400px;
-  position:fixed;
+  position: fixed;
 }
-#down{
+#down {
   height: 100px;
 }
-#image{
+#image {
   width: 350px;
   height: 340px;
   margin-top: -120px;
@@ -57,7 +56,7 @@
 /* .fixed{
   margin-top: -30px;
 } */
-#homemar{
+#homemar {
   background-color: #b6dc1a;
   /* animation: move-words 20s linear infinite; */
   font-weight: 500;
@@ -66,31 +65,85 @@
   position: absolute;
   top: 620px;
 }
-.divhi{
+.divhi {
   margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 640px) {
+  .homediv2 {
+    flex-direction: column;
+    font-size: 14px;
+    margin-top: -150px;
+  }
+  .hiPara {
+    font-size: 13px;
+  }
+  .homeside {
+    margin-top: -550px;
+  }
+  #homemar {
+    font-size: 15px;
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 360px) {
+  .homediv1 {
+    width: 100vw;
+  }
+  .homediv2 {
+    width: 100vw;
+    padding-left: 50px;
+  }
+  #image {
+    width: 90%;
+    height: 70%;
+    /* margin-top: 0px; */
+  }
+  /* .divhi {
+    margin-right: 40px;
+  } */
+}
+
+@media screen and (min-width: 360px) and (orientation: landscape) {
+  .homediv1 {
+    width: 100vw;
+    margin-bottom: -80px;
+  }
+  .homediv2 {
+    width: 90vw;
+    padding-left: 12%;
+    font-size: 14px;
+  }
+  #image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .divhi {
+    margin-top: -8rem;
     margin-bottom: 1rem;
-}
-
-
-
-
-
-
-
-
-@media (max-width: 640px){
-.homediv2{
-flex-direction: column;
-font-size: 14px;
-margin-top: -150px;
-}
-.hiPara{
-  font-size: 13px;
-}
-.homeside{
-  margin-top: -550px;
-}
-#homemar{
-  font-size: 15px;
-}
+  }
+  .hiPara {
+    font-size: 13px;
+  }
+  .homebtn {
+    padding: 3px 30px;
+  }
+  .homeicons {
+    font-size: 17px;
+    gap: 10px;
+  }
+  #down {
+    height: 70px;
+  }
+  .homeside {
+    margin-top: -400px;
+  }
+  #homemar {
+    margin-top: -20%;
+    /* padding: 5px; */
+    font-size: 19px;
+  }
 }

@@ -84,7 +84,7 @@ const Homecomp = () => {
                   >
                   email
                   </a> */}
-                  <a href="mailto:sheila.codes.m@gmail.com">
+                  <a href="mailto:?subject=mosesfavour65@gmail.com">
                     <AiOutlineMail />
                   </a>
                 
