@@ -67,7 +67,7 @@
   }
 }
 
-@media screen and (min-width: 360px) and (orientation: landscape) {
+@media screen and (max-width:940px){
   #phead {
     font-size: 24px;
     padding-top: 10px;

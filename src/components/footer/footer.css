@@ -52,12 +52,12 @@
   } */
 }
 
-@media screen and (min-width: 360px) and (orientation: landscape) {
+@media (max-width: 940px){
   .footcontainer {
-    width: 87.5%;
+    width: 90%;
     height: 20vh;
     padding-left: 20px;
-    margin-left: 13%;
+    margin-left: 10%;
     font-size: 11px;
   }
 }
