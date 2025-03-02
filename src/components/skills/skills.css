@@ -1,0 +1,94 @@
+.skillh {
+  text-align: center;
+  padding-top: 40px;
+}
+.skillh2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  width: 86%;
+  border: none;
+  margin-left: 100px;
+}
+.card {
+  border: 1px solid #000106;
+  width: 100%;
+  height: 100%;
+  padding: 1em 1.5em;
+  background: linear-gradient(#000106 50%, #b6dc1a 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 1em 0;
+}
+p {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+.card:hover {
+  background-position: 0 100%;
+}
+
+.card:hover h3 {
+  color: #000000;
+}
+.card:hover p {
+  color: #000000;
+  font-weight: 500;
+}
+.al {
+  width: 100vw;
+}
+
+@media (max-width: 640px) {
+  .skillh {
+    font-size: 20px;
+  }
+  .skillh2 {
+    font-size: 17px;
+  }
+  .hd {
+    font-size: 15px;
+  }
+  .pr {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 640px) {
+  .section {
+    margin-right: 10%;
+    margin-left: -8%;
+  }
+}
+@media screen and (max-width: 940px){
+  .skillh {
+    font-size: 24px;
+  }
+  .skillh2 {
+    font-size: 19px;
+  }
+  .column {
+    margin-right: 60px;
+  }
+  .al {
+    margin-bottom: 60px;
+  }
+}

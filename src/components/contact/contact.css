@@ -1,0 +1,144 @@
+.contactp {
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+.contactp2 {
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+.firstdiv {
+  padding-left: 50px;
+  background: #181818;
+  width: 65%;
+  height: 96vh;
+  margin-left: 89px;
+}
+.clabel {
+  display: block;
+}
+.cinput {
+  width: 90%;
+  height: 8vh;
+  border-radius: 10px;
+  border: 2px solid #b6dc1a;
+  background-color: transparent;
+  color: #ffffff;
+}
+.push {
+  padding-left: 30px;
+}
+.cinput2 {
+  width: 90%;
+  height: 20vh;
+  border-radius: 10px;
+  border: 2px solid #b6dc1a;
+  background-color: transparent;
+  color: #ffffff;
+}
+.cbtn {
+  width: 20%;
+  height: 6vh;
+  border-radius: 10px;
+  border: 2px solid #b6dc1a;
+  background-color: transparent;
+  color: #ffffff;
+}
+.containerC {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.cright {
+  padding-left: 40px;
+  background-color: #181818;
+  width: 30%;
+  height: 96vh;
+}
+.cbox {
+  width: 90%;
+  height: 19vh;
+  background-color: #222222;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: scroll;
+  padding: 30px;
+}
+
+@media (max-width: 640px) {
+  .containerC {
+    flex-direction: column;
+  }
+  .firstdiv {
+    width: 85%;
+    padding-left: 15px;
+    height: 100vh;
+  }
+  .contactp {
+    font-size: 20px;
+  }
+  .contactp2 {
+    font-size: 20px;
+  }
+  .cbtn {
+    width: 30%;
+    font-size: 14px;
+  }
+  .cright {
+    width: 85%;
+    margin-left: 15%;
+  }
+}
+@media (max-width: 360px) {
+  .firstdiv {
+    margin-left: 22%;
+  }
+  .cbtn {
+    width: 90%;
+  }
+  .cright {
+    margin-left: 22%;
+  }
+  .cbox {
+    overflow: scroll;
+  }
+}
+
+@media screen and (min-width: 360px) and (orientation: landscape) {
+  .firstdiv {
+    overflow: scroll;
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+  .cbtn {
+    width: 40%;
+    border-radius: 8px;
+  }
+  .contactp {
+    font-size: 20px;
+  }
+  .contactp2 {
+    font-size: 16px;
+    padding-left: 2px;
+  }
+  .cright {
+    overflow: scroll;
+    padding-left: 5%;
+  }
+  .cbox {
+    width: 80%;
+    height: 14vh;
+  }
+  .cbox p {
+    font-size: 14px;
+  }
+  .containerC{
+    margin-bottom: 6%;
+  }
+}

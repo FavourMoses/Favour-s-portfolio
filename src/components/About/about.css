@@ -1,0 +1,112 @@
+.abouthead {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* font-size: 30px; */
+}
+.abouttext {
+  padding-top: 60px;
+  font-size: 16px;
+}
+.aboutdiv1 {
+  display: flex;
+  padding-left: 80px;
+  gap: 60px;
+}
+.aboutline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: 30px; */
+}
+.aboutedu {
+  display: flex;
+  padding-top: 15px;
+  justify-content: center;
+  gap: 70px;
+  padding-right: 49px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.abouticon {
+  padding-right: 6px;
+  color: #b6dc1a;
+  font-size: 35px;
+  padding-top: 12px;
+}
+.abouticon2 {
+  padding-right: 6px;
+  color: #b6dc1a;
+  font-size: 35px;
+  padding-top: 12px;
+}
+.aboutpara1 {
+  font-size: 10px;
+}
+.divp {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.aboutparahack {
+  font-size: 10px;
+}
+
+@media (max-width: 640px) {
+  .abouthead {
+    font-size: 20px;
+  }
+  .aboutdiv1 {
+    flex-direction: column;
+    gap: 6px;
+  }
+  .abouttext {
+    font-size: 13px;
+  }
+  .cart {
+    height: 30vh;
+    width: 90%;
+    object-fit: cover;
+  }
+  .eye {
+    margin-right: 35%;
+  }
+  .aboutparahack {
+    margin-right: 40%;
+  }
+  .abouticon {
+    margin-left: 37%;
+  }
+  .abouticon2 {
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 940px){
+  .abouthead {
+    font-size: 24px;
+  }
+  .cart {
+    height: 100vh;
+    width: 50%;
+    object-fit: cover;
+  }
+  .abouttext {
+    font-size: 14px;
+  }
+  .divp {
+    justify-content: center;
+  }
+  .eye {
+    margin-right: 45%;
+  }
+  .abouticon {
+    margin-left: 15px;
+  }
+  .abouticon2{
+    margin-left: 10px;
+  }
+  .aboutparahack{
+    padding-right: 50%;
+  }
+}
